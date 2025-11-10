@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: libreplay
-          path: iOS/build/libSinum.dylib
+          path: iOS/build/libreplay.dylib
