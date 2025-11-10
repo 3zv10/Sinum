@@ -16,7 +16,7 @@ jobs:
           cd ./iOS
           mkdir -p build
           xcrun -sdk iphoneos clang++ Main.m -dynamiclib -arch arm64 \
-            -o build/libSinum.dylib \
+            -o build/libreplay.dylib \
             -framework Foundation -framework UIKit
  
       - name: Upload dylib
